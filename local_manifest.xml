@@ -2,8 +2,6 @@
 <manifest>
   <remote name="victor" fetch="https://github.com/Victor-VieiraSA" />
 
-  <remove-project name="LineageOS/android_device_motorola_devon" />
-
   <project
     name="android_device_motorola_devon"
     path="device/motorola/devon"
