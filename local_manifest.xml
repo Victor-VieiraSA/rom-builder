@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project
+    name="Victor-VieiraSA/android_device_motorola_devon"
+    path="device/motorola/devon"
+    remote="github"
+    revision="lineage-21.0" />
+
+  <!-- Fala pro compilador: "inclui minhas customizações visuais" -->
+  <project
+    name="Victor-VieiraSA/vendor_retropixel"
+    path="vendor/retropixel"
+    remote="github"
+    revision="main" />
+</manifest>
