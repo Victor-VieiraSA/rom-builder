@@ -15,7 +15,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: self-hosted
     # ATENÇÃO: Para builds completas use um self-hosted runner
     # Este workflow funciona para testes parciais no runner gratuito
 
