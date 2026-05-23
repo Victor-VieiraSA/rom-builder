@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="victor" fetch="https://github.com/Victor-VieiraSA" />
+
+  <remove-project name="LineageOS/android_device_motorola_devon" />
+
   <project
-    name="Victor-VieiraSA/android_device_motorola_devon"
+    name="android_device_motorola_devon"
     path="device/motorola/devon"
-    remote="github"
+    remote="victor"
     revision="lineage-21.0" />
 
-  <!-- Fala pro compilador: "inclui minhas customizações visuais" -->
   <project
-    name="Victor-VieiraSA/vendor_retropixel"
+    name="vendor_retropixel"
     path="vendor/retropixel"
-    remote="github"
+    remote="victor"
     revision="main" />
+
 </manifest>
